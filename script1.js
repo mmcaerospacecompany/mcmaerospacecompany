@@ -21,7 +21,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     .then(response => response.json())
     .then(data => {
         if (data.ok) {
-            alert('Error Server is Busy we are on maintanance!');
+            alert('Entered password is not correct! please Enter correct password and username!');
         } else {
             alert('Failed to connect');
         }
